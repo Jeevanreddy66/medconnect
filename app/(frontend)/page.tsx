@@ -1,6 +1,8 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { FC } from "react";
+
+const FrontPage: FC = () => {
   return (
     <>
       <section className="text-3xl flex min-h-screen justify-center items-center">
@@ -8,4 +10,6 @@ export default function Home() {
       </section>
     </>
   );
-}
+};
+
+export default FrontPage;
