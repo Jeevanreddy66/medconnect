@@ -2,11 +2,14 @@
 
 import { FC } from "react";
 
+// Normal Imports
+import { HeroSection } from "@/components/Frontend/HeroSection";
+
 const FrontPage: FC = () => {
   return (
     <>
-      <section className="text-3xl flex min-h-screen justify-center items-center">
-        <h2 className="font-semibold">Medical App</h2>
+      <section className="bg-blue-950">
+        <HeroSection />
       </section>
     </>
   );
