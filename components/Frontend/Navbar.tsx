@@ -9,7 +9,7 @@ export const Navbar: FC = () => {
 
   return (
     <>
-      <header className="bg-blue-950">
+      <header className="bg-blue-950 border-b border-gray-400/30">
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
           aria-label="Global"
